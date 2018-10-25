@@ -1,12 +1,12 @@
 import React from 'react';
-// import {React} from 'react-router-dom';
 
-const Home = () => {
-  return (
-    <div>
-      Home
-    </div>
-  );
+export default class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Home</h1>
+        <p>Ths is the home page</p>
+      </div>
+    );
+  }
 }
-
-export default Home;

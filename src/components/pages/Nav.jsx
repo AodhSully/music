@@ -1,18 +1,15 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div>
-      <NavLink to="/Introduction">Introduction</NavLink>
-      <NavLink to="/Error">404</NavLink>
-
+    <div className="navigationTab">
+      <NavLink to="/">Home</NavLink><br/>
+      <NavLink to="/Introduction">Introduction</NavLink><br/>
+      <NavLink to="/practicingSongwritng">Practicing Songwritng</NavLink><br/>
 
     </div>
   )
 }
 
 export default Nav;
-
-// <NavLink to="/">Introduction</NavLink>
