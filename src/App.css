@@ -4,7 +4,6 @@
 
 .headder {
   display: inline;
-  /* color: blue; */
   font-size: 2.5rem;
   border-bottom: 2px solid red;
   margin: 1em auto;
@@ -16,12 +15,10 @@
   grid-gap: 5px;
 }
 
-.h1 {
+h1 {
   color: red;
 }
-.h3 {
-  color: red;
-}
+
 .pop {
   align-content: center;
   color: red;

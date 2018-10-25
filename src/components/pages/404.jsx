@@ -6,7 +6,7 @@ const Error = () => {
     <div>
       <h1>404</h1>
       <img src={require('../../images/piano.jpg')} alt="piano" />
-      <p>Page Not Found</p>
+      <p>Sorry that page does not exist</p>
     </div>
   )
 }
