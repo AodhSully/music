@@ -5,8 +5,8 @@ const Error = () => {
   return (
     <div>
       <h1>404</h1>
-      <img src={require('../../images/piano.jpg')} alt="piano" />
-      <p>Sorry that page does not exist</p>
+      <img className="img404" src={require('../../images/piano.jpg')} alt="piano" />
+      <p className="p404">Sorry that page does not exist</p>
     </div>
   )
 }

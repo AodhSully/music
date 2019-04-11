@@ -5,6 +5,8 @@ export default class HalfWholeSteps extends React.Component {
     return (
       <div>
         <h1>Half Whole Steps</h1>
+
+      
       </div>
     );
   }

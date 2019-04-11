@@ -31,6 +31,18 @@ h1 {
 
 }
 
+.img404 {
+  display: block;
+  width: 90%;
+  -webkit-filter: blur(1px);
+  flter: blur(1px);
+  -webkit-filter: sepia(0.5);
+  flter: sepia(0.5);
+}
+.p404 {
+  text-align: center;
+}
+
 .footer {
   font-size: 0.65em;
 }
